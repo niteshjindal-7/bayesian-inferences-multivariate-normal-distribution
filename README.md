@@ -7,7 +7,7 @@ In the demonstration, we focus on obtaining the probabilities of class/labels an
 An organization is given an overall rating based on different factors, such as its innovation leadership, regulatory leadership and so on. Moreover, the ratings are given on a scale between 1-9 which implies that we have 9 different class labels.  
 
 Dataset can be found at- 
-https://drive.google.com/drive/folders/1g0tGrf4dQcdq8aQOIpIsrakARtHyawle?usp=sharing 
+https://docs.google.com/spreadsheets/d/1-erQeB3Ga5WnAs-Sw7zJuSjO06v4Cs_O/edit?usp=sharing&ouid=108266723122050992017&rtpof=true&sd=true
 
 We subset the survey data for each class and obtain the distribution using `multivariate_normal()` from `scipy.stats` module in python. The input to the function is mean and variance parameters of a particular class subset which defines a multivariate normal distribution.
 
